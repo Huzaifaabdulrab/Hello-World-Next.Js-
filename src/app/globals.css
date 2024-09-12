@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+body {
+  background-color: #0d0c22;
+  color: white;
+  font-family: Poppins, sans-serif, Arial, Helvetica, sans-serif;
+}
+.border {
+  background-color: white;
+  border: 2px solid whitesmoke;
+  width: 40%;
+  height: 10rem;
+  border-radius: 12px;
+  margin-top: 20rem;
+  padding-top: 2rem;
+  margin-left: 30rem;
+  cursor: pointer;
+}
+
+.border:hover {
+  background-color: #0d0c22;
+  transition: all 1s ease-in-out 1s;
+}
+p {
+  color: black;
+  margin-left: 43%;
+}
+
+h1 {
+  font-size: 35px;
+  margin-top: 3rem;
+  display: inline; 
+  margin-left: 11rem;
+  font-family: Poppins, sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+h1:hover {
+  color: white;
+}
